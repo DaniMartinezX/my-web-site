@@ -2,6 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  // Parece que devuelve un HTML; pero en realidad devuelve un JSX, que es un pseudolenguaje
+  // que se utiliza en los componentes React para poder introducir código, eventos, etc.
+
   return (
     <div className="App">
       <header className="App-header">
